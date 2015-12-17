@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/selector_navigation_drawer"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="center_vertical"
+        android:paddingRight="40dp"
+        android:text="no text"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</RelativeLayout><!-- From: file:/home/krishnan/Desktop/MOM'S%20DABA/NavigationDrawer-master/app/src/main/res/layout/drawer_list_item.xml -->

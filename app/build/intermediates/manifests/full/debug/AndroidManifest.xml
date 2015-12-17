@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.momsdhaba"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/momsdhabalogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.momsdhaba.MainActivity"
+            android:label="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.momsdhaba.AddMenu"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.ChefRegistraion"
+            android:label="@string/title_activity_chef_reg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.CustomerRegistration"
+            android:label="@string/title_activity_custom_reg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.FoodList"
+            android:label="@string/title_activity_chef_listview"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.ReferChef"
+            android:label="@string/title_activity_refer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.notification.NotificationActivity"
+            android:label="@string/title_activity_notification"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.history.Chef_History_Activity"
+            android:label="@string/title_activity_chef_history_"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.EditPage"
+            android:label="@string/title_activity_edit_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.Terms"
+            android:label="@string/title_activity_terms"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.ViewActivity"
+            android:label="@string/title_activity_view"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.Payment"
+            android:label="@string/title_activity_payment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.HollerHere"
+            android:label="@string/title_activity_hellohere"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.HelpDesk"
+            android:label="@string/title_activity_helpdesk"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.notification.NotificationOptions"
+            android:label="@string/title_activity_notification_options"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.user.User_HollerHere"
+            android:label="@string/title_activity_hellohere"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.user.User_ReferChef"
+            android:label="@string/title_activity_refer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.user.User_SelectArea"
+            android:label="@string/title_activity_area"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.user.CustomerActivity"
+            android:label="@string/title_activity_customer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.user.OrderActivity"
+            android:label="@string/title_activity_order"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.user.User_History_Activity"
+            android:label="@string/title_activity_user__history"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.user.User_History_options"
+            android:label="@string/title_activity_user__history_options"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.user.User_Logout"
+            android:label="@string/title_activity_logout"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.Chef_logout"
+            android:label="@string/title_activity_logout"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.momsdhaba.Forgotpassword"
+            android:label="@string/title_activity_forgotpassword"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.momsdhaba.notification.MyService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

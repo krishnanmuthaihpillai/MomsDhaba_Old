@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <selector>
+        <item
+            android:drawable="@drawable/ic_launcher"
+            android:state_focused="true"/>
+        <item
+            android:drawable="@drawable/ic_launcher"
+            android:state_pressed="true"/>
+        <item android:drawable="@drawable/ic_launcher"/>
+    </selector>
+
+</animation-list><!-- From: file:/home/krishnan/Desktop/MOM'S%20DABA/NavigationDrawer-master/app/src/main/res/drawable/deleveryselecter.xml -->

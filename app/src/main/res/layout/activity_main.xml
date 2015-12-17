@@ -1,0 +1,277 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="#FF8080"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/rounded_corners"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="left|bottom"
+                android:src="@drawable/log_account" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Login Below"
+                android:textColor="#DC143C"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- <TextView -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:gravity="left" -->
+        <!-- android:paddingLeft="10dp" -->
+        <!-- android:text="Mobile Number" -->
+        <!-- android:textColor="#FFFFFF" -->
+        <!-- android:textSize="20sp" /> -->
+
+        <EditText
+            android:id="@+id/editText_mnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:hint="@string/lbl_mobilenumber"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="10dp" />
+
+        <requestFocus />
+
+        <!-- <TextView -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:gravity="left" -->
+        <!-- android:paddingLeft="10dp" -->
+        <!-- android:text="Password" -->
+        <!-- android:textColor="#FFFFFF" -->
+        <!-- android:textSize="20sp" /> -->
+
+        <EditText
+            android:id="@+id/editText_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:hint="@string/lbl_password_hint"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:background="@drawable/whitebutton"
+            android:text="@string/lbl_btn_login"
+            android:textColor="#FF8080"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        
+         <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="right"
+            android:text="@string/lbl_pwd"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/chef_registarion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="right"
+            android:text="@string/lbl_chef"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/user_registarion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="right"
+            android:text="@string/lbl_user"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- <ImageView -->
+    <!-- android:id="@+id/imageView1" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="0.1" -->
+    <!-- android:layout_gravity="center_horizontal" -->
+    <!-- android:layout_marginBottom="5dp" -->
+    <!-- android:layout_marginTop="10dp" -->
+    <!-- android:src="@drawable/homelogo" /> -->
+    <!--  -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginBottom="20dp" -->
+    <!-- android:layout_marginTop="20dp" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="MOMs Dhaba" -->
+    <!-- android:textColor="#fff" -->
+    <!-- android:textSize="27sp" -->
+    <!-- android:textStyle="bold" /> -->
+    <!-- #DC143C -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="2" -->
+    <!-- android:gravity="center" -->
+    <!-- android:orientation="vertical" -->
+    <!-- android:weightSum="5" > -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/editText_mnumber" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_margin="20dp" -->
+    <!-- android:layout_weight="0.5" -->
+    <!-- android:background="#fff" -->
+    <!-- android:digits="0123456789" -->
+    <!-- android:ems="10" -->
+    <!-- android:hint="@string/lbl_mobilenumber" -->
+    <!-- android:inputType="number|none" -->
+    <!-- android:maxLength="10" -->
+    <!-- android:padding="12dp" /> -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/editText_password" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_margin="20dp" -->
+    <!-- android:layout_marginBottom="30dp" -->
+    <!-- android:layout_marginTop="1dp" -->
+    <!-- android:layout_weight="0.5" -->
+    <!-- android:background="#fff" -->
+    <!-- android:ems="10" -->
+    <!-- android:hint="@string/lbl_password_hint" -->
+    <!-- android:inputType="textPassword" -->
+    <!-- android:padding="12dp" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/btn_login" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_margin="25dp" -->
+    <!-- android:layout_weight="0.5" -->
+    <!-- android:background="@drawable/whitebutton" -->
+    <!-- android:shadowColor="#A8A8A8" -->
+    <!-- android:shadowRadius="5" -->
+    <!-- android:text="@string/lbl_btn_login" -->
+    <!-- android:textColor="#ff8080" -->
+    <!-- android:textSize="30sp" -->
+    <!-- android:textStyle="bold" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="0.3" -->
+    <!-- android:padding="10dp" -->
+    <!-- android:text="@string/new_user" -->
+    <!-- android:textAllCaps="true" -->
+    <!-- android:textColor="#fff" -->
+    <!-- android:textSize="12sp" /> -->
+    <!-- red DC143C green #9ACD32 -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:gravity="center" -->
+    <!-- android:orientation="horizontal" -->
+    <!-- android:weightSum="2" > -->
+
+
+    <!-- <ImageView -->
+    <!-- android:id="@+id/user_registarion" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="0.3" -->
+    <!-- android:src="@drawable/user2" /> -->
+
+
+    <!-- <ImageView -->
+    <!-- android:id="@+id/chef_registarion" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="0.3" -->
+    <!-- android:src="@drawable/chef2" /> -->
+    <!-- </LinearLayout> -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:gravity="center" -->
+    <!-- android:orientation="horizontal" -->
+    <!-- android:paddingLeft="80dp" -->
+    <!-- android:weightSum="2" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="0.2" -->
+    <!-- android:text="User" -->
+    <!-- android:layout_margin="10dp" -->
+    <!-- android:textColor="#fff" -->
+    <!-- android:textSize="12sp" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="0.3" -->
+    <!-- android:layout_margin="10dp" -->
+    <!-- android:text="Chef" -->
+    <!-- android:textColor="#fff" -->
+    <!-- android:textSize="12sp" /> -->
+    <!-- </LinearLayout> -->
+    <!-- </LinearLayout> -->
+
+</LinearLayout>

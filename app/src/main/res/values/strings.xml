@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MomsDhaba</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Logout</string>
+    <string name="lbl_register">HOME FOOD</string>
+    <string name="lbl_email_hint">Email</string>
+    <string name="lbl_mobilenumber">Mobile Number</string>
+    <string name="lbl_password_hint">Password</string>
+    <string name="lbl_btn_login">Login</string>
+    <string name="lbl_btn_rigistration">Registration</string>
+    <string name="new_user">"New to Home Food? Register here"</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="customer_registration">Customer Registration</string>
+    <string name="terms">I Accept Terms and conditions</string>
+    <string name="termscontent">Business Standard Private Ltd allows you to access its websites (www.business-standard.com and www.businessstandard.com, www.smartinvestor.in, www.bshindi.com and www.bsmotoring,com) and all the content in them on certain terms and conditions specified below. By accessing or subscribing to any part of these sites, you are explicitly agreeing to the terms and conditions below.</string>
+    <string name="lbl_chef"><u>I am a New Chef?</u> > </string>
+    <string name="lbl_user"><u>I am a New Customer?</u> ></string>
+    <string name="order_sum">Order Summary</string>
+    <string name="order_name">Name:</string>
+    <string name="order_phone">Phone:</string>
+    <string name="order_food">Ordered Food:</string>
+    <string name="order_amount">Pay Amount:</string>
+    <string name="order_count">Number of Items:</string>
+    <string name="order_address">Delivery Address:</string>
+     <string name="lbl_pwd"><u>Forgotpassword</u> ></string>
+    <string name="spinner_title">Select Category</string>
+
+    <string-array name="spinnervalue">
+        <item>Meals</item>
+        <item>ChickenBiryani</item>
+        <item>CurdRice</item>
+        <item>LemonRice</item>
+        <item>TomatoRice</item>
+        <item>SambarRice</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="Foodtype">
+        <item>Vegetarian</item>
+        <item>NonVegetarian</item>
+        <item>Eggetarian</item>
+    </string-array>
+
+    <string name="radio_veg">VEG</string>
+    <string name="radio_egg">EGG</string>
+    <string name="radio_nonveg">NON-VEG</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Add Menu</item>
+        <item>Today Orders</item>
+        <item>Weekly Menu</item>
+        <item>Refer Chef</item>
+        <item>Order History</item>
+        <item>My Earnings</item>
+        <item>Settings</item>
+        <item>Social Network</item>
+        <item>Help Desk</item>
+        <item>Logout</item>
+    </string-array>
+
+     <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_new</item>
+        <item>@drawable/ic_action_chat</item>
+        <item>@drawable/ic_action_view_as_list</item>
+        <item>@drawable/ic_chef</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/payment</item>
+        <item>@drawable/settings</item>
+        <item>@drawable/ic_action_holler</item>
+        <item>@drawable/phone</item>
+        <item>@drawable/logout</item>
+    </array>
+
+    <string-array name="nav_drawer_items_user">
+
+        <!-- <item>Select Area</item> -->
+        <item>Order Food</item>
+        <item>Refer Chef</item>
+        <item>History</item>
+        <item>Social Network</item>
+        <item>Logout</item>
+    </string-array>
+
+ <array name="nav_drawer_icons_user">
+
+        <!-- <item>@drawable/ic_action_place</item> -->
+        <item>@drawable/ic_action_view_as_list</item>
+        <item>@drawable/ic_chef</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_action_holler</item>
+        <item>@drawable/logout</item>
+    </array>
+
+     <string name="title_activity_view">Food Item</string>
+    <string name="title_activity_custom_reg">Customer Registration</string>
+    <string name="title_activity_chef_reg">Chef Registration</string>
+    <string name="title_activity_chef_listview">Weekly Menu</string>
+    <string name="title_activity_customer">Order Food</string>
+    <string name="title_activity_edit_page">My Menus</string>
+    <string name="title_activity_area">Select Area</string>
+    <string name="title_activity_menu">Add Menu</string>
+    <string name="title_activity_order">Customer Oders</string>
+    <string name="title_activity_user__history">History</string>
+    <string name="title_activity_chef_history_">Order History</string>
+    <string name="title_activity_notification">Today Orders</string>
+    <string name="title_activity_terms">Terms and Condition</string>
+    <string name="title_activity_refer">Refer Chef</string>
+    <string name="title_activity_payment">My Earnings</string>
+    <string name="title_activity_hellohere">Social Network</string>
+    <string name="title_activity_helpdesk">Help Desk</string>
+    <string name="title_activity_notification_options">Notification Options</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_user__history_options">User_History_options</string>
+    <string name="title_activity_logout">Logout</string>
+    <string name="title_activity_forgotpassword">Forgotpassword</string>
+
+
+</resources>

@@ -1,0 +1,113 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- The main content view -->
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <!-- Footer aligned to bottom -->
+
+            <RelativeLayout
+                android:id="@+id/footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#ff8080"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/textView1"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/totla_amt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Total:₹  "
+                            android:textColor="#FFFFFF"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/checkout"
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="CheckOut"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!-- Content below header and above footer -->
+
+            <RelativeLayout
+                android:id="@+id/content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/footer"
+                android:layout_margin="10dp"
+                android:background="#fff"
+                android:gravity="center" >
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/logout" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:gravity="right" -->
+<!--                     android:text="Logout" -->
+<!--                     android:textColor="#DA2944" -->
+<!--                     android:textSize="18sp" -->
+<!--                     android:textStyle="bold" /> -->
+
+                <ListView
+                    android:id="@+id/userlistview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@color/list_divider"
+                    android:dividerHeight="1dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <!-- The navigation drawer #e5e5e5 -->
+
+    <ListView
+        android:id="@+id/left_drawer2"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        android:choiceMode="singleChoice"
+        android:divider="#666"
+        android:dividerHeight="1dp" />
+
+</android.support.v4.widget.DrawerLayout>

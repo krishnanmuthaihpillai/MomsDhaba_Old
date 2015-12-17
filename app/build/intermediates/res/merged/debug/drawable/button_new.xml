@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <corners android:radius="26dp" />
+
+    <gradient
+        android:angle="45"
+        android:centerColor="#ff8080"
+        android:centerX="35%"
+        android:endColor="#ff8080"
+        android:startColor="#ff8080"
+        android:type="linear" />#DC143C  #ff8080
+
+    <padding
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp" />
+
+    <size
+        android:height="60dp"
+        android:width="270dp" />
+
+    <stroke
+        android:width="3dp"
+        android:color="#ff8080" />
+
+</shape><!-- From: file:/home/krishnan/Desktop/MOM'S%20DABA/NavigationDrawer-master/app/src/main/res/drawable/button_new.xml -->
